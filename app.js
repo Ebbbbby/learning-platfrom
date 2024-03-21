@@ -207,12 +207,17 @@ function displayItems(Items) {
                             </header>
                             <p class="item-text">${item.desc}</p>
                             <div class="course-rating">
-                                <span>${displayRating(item.rating)}</span>
+                              <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                                <span class = 'star'>${item.rating}</span>
                             </div>
                         </div>
                     </div>
                 </div>`;
-     ;
+        ;
     });
     displayMenu = displayMenu.join("");
 

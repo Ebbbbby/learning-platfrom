@@ -323,7 +323,14 @@ background-color: #f3f5f5;
   color: #ffc107;
 }
 
-
+.star{
+  padding: .5rem;
+  color: var(--footer-bg);
+  font-weight: bold;
+}
+.price{
+  color: var(--clr-gold);
+}
 .footer {
   background-color: var(--footer-bg);
   color:var(--clr-white);
